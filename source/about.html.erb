@@ -1,24 +1,35 @@
 ---
-title: Le Wagon - Middleman - About
+title: Le Wagon - Middleman - About (presentation)
 ---
 
-<div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-      <% data.users.each do |user| %>
-        <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fa fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-        </li>
-      <% end %>
-    </ul>
+<div id="home">
+  <div class="container">
+    <div class="home-content">
+      <h3>RELAXATION ET DÉTENTE</h3>
+    </div>
+
+    <div class="home-content">
+      <p>
+        Le Shiatsu se pratique habillé, allongé sur un futon au sol.
+      </p>
+    </div>
+
+    <div class="home-content">
+      <p>
+        Je vous propose aussi une séance plus courte, sur chaise.
+      </p>
+    </div>
+
+    <div class="home-content">
+      <p>
+        Le patricien en Shiatsu exerce des pressions avec les pouces, le long des trajets des méridiens d'acupuncture afin d'éliminer les tensions du corps et d'harmoniser les flux énergétiques.
+      </p>
+    </div>
+
+    <div class="home-content">
+      <p>
+        Le Shiatsu favorise la détente, le sommeil. Il renforce le système immunitaire et le fonctionnement des parties saines du corps. Il aide à une plus grande stabilité de l'état psychique et énergétique.
+      </p>
+    </div>
   </div>
 </div>
